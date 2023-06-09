@@ -1,0 +1,15 @@
+.gradle/
+build/
+.idea
+lib/
+dev.properties
+extensions.txt
+dev_storage
+local*/
+.vs
+.vscode
+obj
+out
+bin
+.DS_Store
+ComponentsGenerated.wxs
