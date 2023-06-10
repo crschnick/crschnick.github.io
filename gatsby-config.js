@@ -21,19 +21,19 @@ module.exports = {
       {
         name: 'XPipe',
         description:
-          'A brand new type of remote file browser and shell connection hub.',
+          'A modern remote file browser and shell connection hub build for professionals.',
         link: 'https://github.com/xpipe-io/xpipe',
       },
       {
         name: 'Pdx-Unlimiter',
         description:
-          'A smart savegame manager, editor, and toolbox for all current major Paradox Grand Strategy games.',
+          'A savegame manager and editor for all grand strategy games from Paradox Interactive.',
         link: 'https://github.com/crschnick/pdx_unlimiter',
       },
       {
         name: 'PDX Tools',
         description:
-          'View maps, graphs, and tables of your save and compete in a casual, evergreen leaderboard of EU4 achievement speed runs. Upload and share your save with the world.',
+          'A web-based savegame viewer and leaderboard for Europa Universalis 4 where I build the WebGL map.',
         link: 'https://github.com/pdx-tools/pdx-tools',
       },
     ],
