@@ -35,11 +35,6 @@ const Layout = ({ children }) => {
             />
           </pattern>
         </defs>
-        <rect
-          width="404"
-          height="784"
-          fill="url(#5d0dd344-b041-4d26-bec4-8d33ea57ec9b)"
-        />
       </svg>
       <div className={classes.wrapper}>{children}</div>
     </div>

@@ -14,7 +14,7 @@ import SEO from '../components/seo';
 const Index = ({ data }) => {
   const about = get(data, 'site.siteMetadata.about', false);
   const projects = get(data, 'site.siteMetadata.projects', false);
-  const posts = data.allMarkdownRemark.edges;
+  const posts = get(data, 'site.siteMetadata.posts', false);
   const experience = get(data, 'site.siteMetadata.experience', false);
   const skills = get(data, 'site.siteMetadata.skills', false);
   const noBlog = !posts || !posts.length;
@@ -48,6 +48,11 @@ export const pageQuery = graphql`
         github
         linkedin
         projects {
+          name
+          description
+          link
+        }
+        posts {
           name
           description
           link

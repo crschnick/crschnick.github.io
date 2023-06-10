@@ -5,17 +5,17 @@ module.exports = {
     // Your Name
     name: 'Christopher Schnick',
     // Main Site Title
-    title: `Christopher Schnick| Software Developer`,
+    title: `Christopher Schnick | Software Developer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Software developer`,
     // Optional: Twitter account handle
     author: `@crschnick`,
     // Optional: Github account URL
     github: `https://github.com/crschnick`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/christopher-schnick-0a13a0271/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I primarily develop desktop applications that can make your life easier. This includes everything from the initial concept, over design and implementation, to distribution.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -25,51 +25,60 @@ module.exports = {
         link: 'https://github.com/xpipe-io/xpipe',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'Pdx-Unlimiter',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'A smart savegame manager, editor, and toolbox for all current major Paradox Grand Strategy games.',
+        link: 'https://github.com/crschnick/pdx_unlimiter',
       },
       {
-        name: 'Another Cool Project',
+        name: 'PDX Tools',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'View maps, graphs, and tables of your save and compete in a casual, evergreen leaderboard of EU4 achievement speed runs. Upload and share your save with the world.',
+        link: 'https://github.com/pdx-tools/pdx-tools',
       },
+    ],
+    posts: [
+      {
+        name: 'Unconventional Remote Process Control Without Libraries In Java',
+        description:
+            'Have you ever wanted to control a remote process from a Java application? With XPipe you can!',
+        link: 'https://foojay.io/today/presenting-xpipe/',
+      }
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
-    experience: [
-      {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-    ],
+    // experience: [
+    //   {
+    //     name: 'Acme Corp',
+    //     description: 'Full-Stack Developer, February 2020 - Present',
+    //     link: 'https://github.com/RyanFitzgerald/devfolio',
+    //   },
+    //   {
+    //     name: 'Globex Corp',
+    //     description: 'Full-Stack Developer, December 2017 - February 2020',
+    //     link: 'https://github.com/RyanFitzgerald/devfolio',
+    //   },
+    //   {
+    //     name: 'Hooli',
+    //     description: 'Full-Stack Developer, May 2015 - December 2017',
+    //     link: 'https://github.com/RyanFitzgerald/devfolio',
+    //   },
+    // ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: 'Languages',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Java, C/C++, Python, HTML/CSS, Typescript, WebGL, SQL',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Java',
+        description:
+            'Gradle, Maven, JPMS, JavaFX, GraalVM AOT, jlink/jpackage',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Docker, Kubernetes, Amazon Web Services (AWS), GitHub Actions, CI / CD',
       },
     ],
   },
