@@ -5,9 +5,9 @@ module.exports = {
     // Your Name
     name: 'Christopher Schnick',
     // Main Site Title
-    title: `Christopher Schnick | Software Developer`,
+    title: `Christopher Schnick | Software Engineer`,
     // Description that goes under your name in main bio
-    description: `Software developer`,
+    description: `Software Engineer`,
     // Optional: Twitter account handle
     author: `@crschnick`,
     // Optional: Github account URL
@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/christopher-schnick-0a13a0271/`,
     // Content of the About Me section
-    about: `I primarily develop desktop applications that can make your life easier. This includes everything from the initial concept, over design and implementation, to distribution.`,
+    about: `I design, architect, and implement modern desktop applications that can make your life easier.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -68,12 +68,12 @@ module.exports = {
       {
         name: 'Languages',
         description:
-          'Java, C/C++, Python, HTML/CSS, Typescript, WebGL, SQL',
+          'Java, C++, Python, HTML/CSS, Typescript, WebGL, SQL',
       },
       {
         name: 'Java',
         description:
-            'Gradle, Maven, JPMS, JavaFX, GraalVM AOT, jlink/jpackage',
+            'Gradle, Maven, JPMS, JavaFX, GraalVM AOT, JDBC, Jackson',
       },
       {
         name: 'Other',
