@@ -2,7 +2,7 @@ import { Link } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
 
-import profileImg from '../../images/profile.png';
+import profileImg from '../../images/profile.jpg';
 import resume from '../../../static/resume.pdf';
 
 const classes = {
