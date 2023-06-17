@@ -13,7 +13,7 @@ module.exports = {
     // Optional: Github account URL
     github: `https://github.com/crschnick`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/christopher-schnick-0a13a0271/`,
+    linkedin: `https://www.linkedin.com/in/crschnick/`,
     // Content of the About Me section
     about: `I design, architect, and implement modern desktop applications that can make your life easier.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
@@ -73,12 +73,12 @@ module.exports = {
       {
         name: 'Java',
         description:
-            'Gradle, Maven, JPMS, JavaFX, GraalVM AOT, JDBC, Jackson',
+            'Gradle, Maven, GraalVM AOT, JDBC, Jackson, JPMS, JavaFX',
       },
       {
         name: 'Other',
         description:
-          'Docker, Kubernetes, Amazon Web Services (AWS), GitHub Actions, CI / CD',
+          'Docker, Kubernetes, Ansible, Amazon Web Services (AWS), GitHub Actions, CI / CD',
       },
     ],
   },
