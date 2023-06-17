@@ -15,7 +15,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/crschnick/`,
     // Content of the About Me section
-    about: `I design, architect, and implement modern desktop applications that can make your life easier.`,
+    about: `I design, architect, and implement modern desktop applications that can make your life easier. I often combine that with my interest in grand strategy games.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
