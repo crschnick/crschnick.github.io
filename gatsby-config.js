@@ -21,7 +21,7 @@ module.exports = {
       {
         name: 'XPipe',
         description:
-          'A modern remote file browser and shell connection hub build for professionals.',
+          'A brand-new type of shell connection hub and remote file manager.',
         link: 'https://github.com/xpipe-io/xpipe',
       },
       {
