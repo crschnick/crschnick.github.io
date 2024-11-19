@@ -249,3 +249,7 @@ pre[class*='language-'] {
   padding: 2px 5px !important;
   text-shadow: none !important;
 }
+
+body {
+  background: #040710FF !important;
+}

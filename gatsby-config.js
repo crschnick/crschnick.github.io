@@ -7,7 +7,7 @@ module.exports = {
     // Main Site Title
     title: `Christopher Schnick | Software Engineer`,
     // Description that goes under your name in main bio
-    description: `Software Engineer`,
+    description: `Founder @ XPipe | Software Engineer`,
     // Optional: Twitter account handle
     author: `@crschnick`,
     // Optional: Github account URL
@@ -34,10 +34,22 @@ module.exports = {
         name: 'PDX Tools',
         description:
           'A web-based savegame viewer and leaderboard for Europa Universalis 4 where I build the WebGL map.',
-        link: 'https://github.com/pdx-tools/pdx-tools',
+        link: 'pdx.tools',
       },
     ],
     posts: [
+      {
+        name: 'Run JavaFX on the Windows Subsystem for Linux and More!',
+        description:
+            'What does it take to run standalone JavaFX applications on exotic Linux systems like the Windows Subsystem for Linux or some embedded systems? As you will see, not a lot!',
+        link: 'https://foojay.io/today/javafx-on-wsl/',
+      },
+      {
+        name: 'Java for desktop applications: Tips and Tricks (Part 1) ',
+        description:
+            'As desktop applications have kind of become a niche topic, it\'s getting harder to find information about up-to-date best practices for desktop development.',
+        link: 'https://foojay.io/today/java-for-desktop-applications-part-1/',
+      },
       {
         name: 'Unconventional Remote Process Control Without Libraries In Java',
         description:

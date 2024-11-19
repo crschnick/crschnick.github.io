@@ -2,7 +2,7 @@ import { Link } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
 
-import profileImg from '../../images/profile.jpg';
+import profileImg from '../../images/profile.png';
 import resume from '../../../static/resume.pdf';
 
 const classes = {
@@ -10,12 +10,12 @@ const classes = {
   imageWrapper: 'w-full max-w-150',
   image: 'rounded-full transform transition-all duration-150 hover:scale-105',
   contentWrapper: 'flex-none pt-6 md:pt-1 md:flex-1 md:pl-20',
-  name: 'text-5xl text-gray-900 font-bold leading-tight hover:text-black',
-  description: 'text-gray-600',
+  name: 'text-5xl text-gray-100 font-bold leading-tight hover:text-gray-500',
+  description: 'text-gray-300',
   list: 'mt-6 uppercase tracking-wider',
   item: 'inline list-none pr-4',
   link:
-    'inline-block py-2 font-semibold text-xs text-gray-600 hover:text-black',
+    'inline-block py-2 font-semibold text-xs text-gray-300 hover:text-gray-500',
 };
 
 const Header = ({ metadata = {}, noBlog = false }) => {
